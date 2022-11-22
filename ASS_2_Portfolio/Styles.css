@@ -1,0 +1,360 @@
+@media screen and (min-width: 900px) {
+    padding: 1px, 3px;
+}
+.responsive {
+    width: 100%;
+    max-width: 2000px;
+    height: auto;
+    transform: preserve-3d;
+}
+
+#html {
+    -webkit-text-size-adjust: none;
+    -webkit-transform-color: transparent;
+}
+
+body {
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    display: block;
+    background-color: black;
+    color: white;
+    touch-action: none;
+    box-sizing: border-box;
+    transform: preserve-3d;
+}
+
+div.scrollmenu {
+    background-color: transparent;
+    overflow: auto
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: black
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold
+}
+#content {
+    float: none;
+    padding: 5px, 10px, 5px, 10px;
+    font-size: 5px;
+    width: auto;
+    max-width: 2000px;
+    height: auto;
+}
+
+.scrollmenu {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-position: inside;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    background: black;
+}
+
+.container image {
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: -5;
+    perspective: 5px;
+}
+
+.footer-wrapper {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 5px, 0px;
+    position: absolute;
+    overflow: auto;
+    text-align: center;
+    background-color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    transform: preserve-3d;
+    z-index: -1;
+}
+
+.style {
+    transform: preserve-3d;
+}
+
+.paralax {
+    background-image: url('../Images/Rainbow_tube.png');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background {
+    transform: translateZ(-20px) scale(2, 2);
+    background-image: url('../Images/Rainbow_tube.png');
+    min-height: 100%;
+    -webkit-text-size-adjust: none;
+    -webkit-transform-color: transparent;
+}
+
+.foreground {
+    transform: translateZ(-5px) scale(3.5, 1.5);
+    foreground-image: url('../Images/Night_view_OPH.png')
+    min-height: 100%
+    position: absolute
+    transform: preserve-3d;
+}
+
+.background,
+.foreground {
+    position: absolute;
+    height: 100%
+    width: 100%
+    object-fit: cover;
+    z-index: -7;
+    transform: preserve-3d;
+}
+
+header {
+    position: relative;
+    font-family: 'Play', sans-serif;
+    font-weight: 600;
+    line-height: 110px;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 100px #4bab8d;
+    transform-style: preserve-3d;
+    z-index: -5;
+}
+
+h1 .title {
+    text-shadow: 100px #4bab8d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    line-height: 10px;  
+    position: absolute;
+    font-display: center;
+    width: 100%;
+    max-width: 2000px;
+    height: 100%;
+    max-height: 2000px;
+    display: block;
+    transform: preserve-3d;
+    z-index: -2;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Play', sans-serif;
+    position: absolute;
+    font-weight: 600;
+    line-height: 5px; 
+    padding-bottom: 10px;
+    z-index: -4; 
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.p1 {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 30px;
+    position: relative;
+    display: block;
+    background-color: transparent;
+    color: white;
+    touch-action: none;
+    box-sizing: border-box;
+}
+
+.imgCW {
+    image: url('../Images/Cathy_Wilcox.png');
+    position: absolute;
+    display: flex;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    width: 50%;
+    max-width: 2000px;
+    height: auto;
+    max-height: 2000px;
+    justify-content:flex-start;
+    transform: translateZ(-8px) scale(2px, 5px);
+}
+
+.p2 {
+    position: relative;
+    background-color: #4bab8d;
+    display:inline-block;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+    margin-left: 20rem;
+    margin-right: 60rem;
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+    width: 50%;
+    max-width: 2000px;
+    height: 70%;
+    max-height: 2000px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content:flex-start;
+    transform: translateZ(-8px) scale(2px, 5px);
+}
+
+.video_1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    z-index: -5;
+ }
+
+.imgCW_GIF {
+    image: url ('../Images/hero-image-shortened-new-transparent.gif')
+    position: relative;
+    background-color: black
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width:80%;
+    max-width: 2000px;
+    height: 80%;
+    max-height: 2000px;
+    justify-content: space-between;
+    object-fit: max-content
+    z-index: -5;
+}
+
+.imgNB {
+    image: url('../Images/Nigel_Buchanan.png');
+    position: absolute;
+    display: flex;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 50%;
+    max-width: 2000px;
+    height: auto;
+    max-height: 2000px;
+    justify-content:flex-start;
+    transform: translateZ(-8px) scale(2px, 5px);
+}
+
+.p3 {
+    position: relative;
+    background-color: #df8111;
+    display:inline-block;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+    margin-left: 30rem;
+    margin-right: 10rem;
+    margin-top: 20rem;
+    margin-bottom: 0rem;
+    width: 50%;
+    max-width: 2000px;
+    height: 70%;
+    max-height: 2000px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content:flex-start;
+    transform: translateZ(-8px) scale(2px, 5px);
+}
+
+.imgDNA {
+    image: url('../Images/Democracy DNA.png');
+    position: absolute;
+    display: flex;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    width: 50%;
+    max-width: 2000px;
+    height: auto;
+    max-height: 2000px;
+    justify-content:flex-start;
+    transform: translateZ(-8px) scale(2px, 5px);
+}
+.video_2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    z-index: -5;
+ }
+
+ .video_3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    z-index: -5;
+ }
+
+
+
+@supports {
+    display: flex;
+}
+
+@media screen and (min-width: 900px) {
+    .floats-right-sm{
+        float: right;
+        display: flex
+    }
+
+    .floats-right-lg {
+        float: right;
+        display: flex
+    }
+    
+    
+}
